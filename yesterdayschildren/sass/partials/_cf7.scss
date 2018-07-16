@@ -1,7 +1,12 @@
 // contact form 7 styling
+$cf7-success-color: #FFF;
+$cf7-success-background: #67bd57;
+$cf7-submit-color: #FFF;
+
 .wpcf7-form {
-   textarea {
-      height: 200px;
+     textarea {
+        height: 200px;
+        background-color: white;
     }
     input.wpcf7-form-control.wpcf7-submit {
       padding: 18px;
@@ -10,6 +15,13 @@
       border-radius: 3px;
       text-transform: uppercase;
       font-weight: bold;
+      color: $cf7-submit-color;
+    }
+    input[type="tel"]{
+       width: 200px;
+    }
+    p {
+      margin-bottom: 15px;
     }
 }
 .wpcf7 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
