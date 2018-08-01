@@ -10,6 +10,7 @@
 .no-sidebar-page .be-section-pad:first-child,
 .page-template-page-940-php #content,
 .no-sidebar-page #content-wrap,
+.archive #content #content-wrap,
 .portfolio-archives.no-sidebar-page #content-wrap {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -37,4 +38,13 @@ input[type="submit"] {
 	letter-spacing: 1px;
 	font-weight: bold;
 	cursor: pointer;
+}
+// hide the 'posted in' category on blog posts
+.single-post-tags.single-page-att,
+.post-bottom-details,
+.post-meta.post-comments,
+.post-meta.post-category,
+.be-themes-comments,
+.post-meta.post-author .post-meta-sep  { // hide the separator
+	display: none;
 }
