@@ -5,7 +5,7 @@
 //    load_child_theme_textdomain( 'be-themes', get_stylesheet_directory() . '/languages' );
 //}
 
-  require_once(get_stylesheet_directory().'/custom/branding.php');
+  // require_once(get_stylesheet_directory().'/custom/branding.php'); // use Brando plugin instead
   require_once(get_stylesheet_directory().'/custom/language.php');
   require_once(get_stylesheet_directory().'/custom/bottom-CTA.php');
 ?>
